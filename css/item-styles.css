@@ -1,0 +1,61 @@
+:root {
+    --light-grey: #E0E0E0;
+    --grey: #BDBDBD;
+    --dark-grey: #333;
+    --bg-color: #F5F5F5;
+    --item-size: 228px;
+}
+
+h1 {
+    font-size: 26px;
+    font-weight: bolder;
+    color: var(--dark-grey);
+    margin-bottom: 18px;
+}
+
+.main-info {
+    margin-top: 58px;
+}
+
+.img-container {
+    text-align: center;
+}
+
+.vendor-code {
+    font-size: 14px;
+    color: var(--grey);
+    font-style: italic;
+}
+
+.specifications {
+    font-weight: bold;
+    color: var(--dark-grey);
+    font-size: 20px;
+    margin: 64px 0 20px 0;
+}
+
+.table {
+    margin: 0 auto 64px auto;
+}
+
+.table > .row {
+    padding: 10px;
+    border-bottom: 0.8px solid var(--light-grey);
+}
+
+.spec-title {
+    font-size: 14px;
+    color: var(--grey);
+}
+
+.spec-value {
+    font-size: 14px;
+    color: var(--dark-grey);
+}
+
+@media (max-width: 768px) {
+
+    h1 {
+        margin-top: 32px;
+    }
+}

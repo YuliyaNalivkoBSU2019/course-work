@@ -1,0 +1,160 @@
+:root {
+    --light-grey: #E0E0E0;
+    --grey: #BDBDBD;
+    --dark-grey: #333;
+    --bg-color: #F5F5F5;
+    --item-size: 228px;
+    --img-size-lg: 90px;
+    --img-size-sm: 110px;
+    --save-btn-width: 200px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: "Century Gothic";
+}
+
+button, input {
+    background: none;
+    border: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-text {
+    margin: 64px 0;
+    color: var(--dark-grey);
+    text-transform: uppercase;
+    font-size: 32px;
+    font-weight: bold;
+    margin-right: 40px;
+}
+
+.main-info {
+    height: 280px;
+    display: flex;
+}
+
+.img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #eeeeee;
+    border-radius: 8px;
+    width: 280px;
+    height: 280px;
+}
+
+.img > button {
+    font-size: 32px;
+}
+
+.name-vendor-save {
+    width: calc(100% - 280px - var(--save-btn-width));
+}
+
+.name-vendor {
+    width: 100%;
+    padding: 0 48px;
+}
+
+.name-vendor > input, .entry-field > input  {
+    width: 100%;
+    border-bottom: 0.8px solid var(--grey);
+}
+
+.name-vendor > input:first-of-type {
+    margin-bottom: 48px;
+}
+
+.name-vendor > label, .entry-field > label {
+    color: var(--grey);
+    font-size: 14px;
+    margin-bottom: 0;
+}
+
+.save-btn {
+    margin-bottom: 64px;
+}
+
+.save {
+    background-color: var(--dark-grey);
+    color: #fff;
+    font-size: 16px;
+    border-radius: 24px;
+    width: var(--save-btn-width);
+    padding: 10px 0;
+}
+
+.side-btn > .save{
+/*    position: fixed;*/
+}
+
+.section-name {
+    font-weight: bold;
+    margin: 40px 0 24px 0;
+}
+
+.specifications {
+}
+
+.entry-field {
+    margin-bottom: 34px;
+    text-align: left;
+}
+
+.bottom-btn {
+    display: none;
+    width: 100%;
+    text-align: center;
+}
+
+@media (max-width: 992px) {
+
+    .name-vendor-save {
+        width: calc(100% - 280px);
+    }
+
+    .side-btn {
+        display: none;
+    }
+
+    .bottom-btn {
+        display: block;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .main-info {
+        display: block;
+        height: auto;
+        width: 100%;
+    }
+
+    .img {
+/*        width: 236px;
+        height: 236px;*/
+        width: 50%;
+        height: 0;
+        padding-top: 50%;
+    }
+
+    .img > button {
+        padding-bottom: 100%;
+    }
+
+    .name-vendor-save {
+        width: 100%;
+    }
+
+    .name-vendor {
+        padding: 32px 0;
+    }
+}

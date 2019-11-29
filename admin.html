@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Административная панель</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/default.css">
+    <link rel="stylesheet" type="text/css" href="css/admin-styles.css">
+</head>
+<body>
+<div class=" container-fluid">
+    <header>
+        <h1 class="header-text">Панель администратора</h1>
+        <button class="logout-btn"><img src="img/log-out.png" title="Выйти"></button>
+    </header>
+
+    <div class="search">
+        <form>
+            <input type="text" placeholder="Поиск" aria-label="Search">
+            <button type="submit" class="search-submit">
+                <img src="img/search.png">
+            </button>
+        </form>
+    </div>
+
+    <div class="table">
+        <div class="table-controls row">
+            <div class="col-6">
+                <button class="remove-all-btn">Удалить все</button>
+            </div>
+            <div class="col-6 add">
+                <a href="admin-add.html"><button class="add-btn">Добавить +</button></a>
+            </div>
+        </div>
+
+        <div class="table-header">
+            <div class="img">Фото</div>
+            <div class="info">
+                <div class="name">Наименование</div>
+                <div class="other">
+                    <div class="vendor">Артикул</div>
+                    <div class="edit-remove">
+                        <div class="edit">Ред.</div>
+                        <div class="remove">Удалить</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="item">
+            <div class="item-img">
+                <img src="img/goods/1.jpg">
+            </div>
+
+            <div class="item-info row">
+                <div class="item-name col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                    <span>Огнетушитель ОП-1(з)-АВСЕ МИГ (1А,21B,С,Е)</span>
+                </div>
+                <div class="item-other col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                    <span class="item-vendor">111-126</span>
+                    <div class="item-btns">
+                        <button class="edit-btn"><img src="img/edit.png" title="Изменить"></button>
+                        <button class="remove-btn"><img src="img/remove.png" title="Удалить"></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="item">
+            <div class="item-img">
+                <img src="img/goods/1.jpg">
+            </div>
+
+            <div class="item-info row">
+                <div class="item-name col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                    <span>Огнетушитель ОП-1(з)-АВСЕ МИГ (1А,21B,С,Е)</span>
+                </div>
+                <div class="item-other col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                    <span class="item-vendor">111-126</span>
+                    <div class="item-btns">
+                        <button class="edit-btn"><img src="img/edit.png" title="Изменить"></button>
+                        <button class="remove-btn"><img src="img/remove.png" title="Удалить"></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="item">
+            <div class="item-img">
+                <img src="img/goods/1.jpg">
+            </div>
+
+            <div class="item-info row">
+                <div class="item-name col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                    <span>Огнетушитель ОП-1(з)-АВСЕ МИГ (1А,21B,С,Е)</span>
+                </div>
+                <div class="item-other col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                    <span class="item-vendor">111-126</span>
+                    <div class="item-btns">
+                        <button class="edit-btn"><img src="img/edit.png" title="Изменить"></button>
+                        <button class="remove-btn"><img src="img/remove.png" title="Удалить"></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="item">
+            <div class="item-img">
+                <img src="img/goods/1.jpg">
+            </div>
+
+            <div class="item-info row">
+                <div class="item-name col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                    <span>Огнетушитель ОП-1(з)-АВСЕ МИГ (1А,21B,С,Е)</span>
+                </div>
+                <div class="item-other col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                    <span class="item-vendor">111-126</span>
+                    <div class="item-btns">
+                        <button class="edit-btn"><img src="img/edit.png" title="Изменить"></button>
+                        <button class="remove-btn"><img src="img/remove.png" title="Удалить"></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="item">
+            <div class="item-img">
+                <img src="img/goods/1.jpg">
+            </div>
+
+            <div class="item-info row">
+                <div class="item-name col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                    <span>Огнетушитель ОП-1(з)-АВСЕ МИГ (1А,21B,С,Е)</span>
+                </div>
+                <div class="item-other col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                    <span class="item-vendor">111-126</span>
+                    <div class="item-btns">
+                        <button class="edit-btn"><img src="img/edit.png" title="Изменить"></button>
+                        <button class="remove-btn"><img src="img/remove.png" title="Удалить"></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="item">
+            <div class="item-img">
+                <img src="img/goods/1.jpg">
+            </div>
+
+            <div class="item-info row">
+                <div class="item-name col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                    <span>Огнетушитель ОП-1(з)-АВСЕ МИГ (1А,21B,С,Е)</span>
+                </div>
+                <div class="item-other col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                    <span class="item-vendor">111-126</span>
+                    <div class="item-btns">
+                        <button class="edit-btn"><img src="img/edit.png" title="Изменить"></button>
+                        <button class="remove-btn"><img src="img/remove.png" title="Удалить"></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+</body>
+</html>

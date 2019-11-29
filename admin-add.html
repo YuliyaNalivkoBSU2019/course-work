@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Добавить</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/default.css">
+    <link rel="stylesheet" type="text/css" href="css/admin-add-styles.css">
+</head>
+<body>
+
+<div class=" container-fluid">
+    <header>
+        <h1 class="header-text">Добавить</h1>
+    </header>
+
+    <section class="main-info">
+        <div class="img">
+            <button>+</button>
+        </div>
+
+        <div class="name-vendor-save">
+            <form class="name-vendor">
+                <label for="name">Название</label>
+                <input type="text" id="name">
+
+                <label for="vendor">Артикул</label>
+                <input type="text" id="vendor">
+            </form>
+        </div>
+
+        <div class="save-btn side-btn">
+            <button class="save">Сохранить</button>
+        </div>
+    </section>
+
+    <section class="specifications">
+        <p class="section-name">Технические характеристики</p>
+        <form class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-9">
+                <div class="entry-field">
+                    <label for="rank">Ранг</label>
+                    <input type="text" id="rank">
+                </div>
+
+                <div class="entry-field">
+                    <label for="massOfCharge">Масса заряда огнетущещего вещества, кг</label>
+                    <input type="text" id="massOfCharge">
+                </div>
+
+                <div class="entry-field">
+                    <label for="pressure">Рабочее давление в корпусе огнетушителя, МПа при 20˚С</label>
+                    <input type="text" id="pressure">
+                </div>
+
+                <div class="entry-field">
+                    <label for="extAgentDuration">Продолжительность подачи огнетушащего вещества, с, не менее</label>
+                    <input type="text" id="extAgentDuration">
+                </div>
+
+                <div class="entry-field">
+                    <label for="jetLength">Длина струи огнетушащего вещества, м, не менее</label>
+                    <input type="text" id="jetLength">
+                </div>
+
+                <div class="entry-field">
+                    <label for="sizes">Габаритные размеры (высота, диаметр корпуса), мм, не более</label>
+                    <input type="text" id="sizes">
+                </div>
+
+                <div class="entry-field">
+                    <label for="mass">Масса огнетушителя полная, кг, не более</label>
+                    <input type="text" id="mass">
+                </div>
+
+                <div class="entry-field">
+                    <label for="temperature">Диапазон температуры эксплуатации, °С</label>
+                    <input type="text" id="temperature">
+                </div>
+
+                <div class="entry-field">
+                    <label for="diameter">Диаметр корпуса (баллона) в местах крепления фиксирующих элементов кронштейнов
+                        (КТМ, КТХ, КТФ), мм</label>
+                    <input type="text" id="diameter">
+                </div>
+
+                <div class="entry-field">
+                    <label for="volume">Объем баллона, л</label>
+                    <input type="text" id="volume">
+                </div>
+
+                <div class="entry-field">
+                    <label for="maxPressure">Максимальное рабочее давление</label>
+                    <input type="text" id="maxPressure">
+                </div>
+
+                <div class="entry-field">
+                    <label for="timeToRecharge">Срок до перезарядки</label>
+                    <input type="text" id="timeToRecharge">
+                </div>
+
+                <div class="entry-field">
+                    <label for="warranty">Гарантийный срок эксплуатации</label>
+                    <input type="text" id="warranty">
+                </div>
+
+            </div>
+        </form>
+
+        <div class="save-btn  bottom-btn">
+            <button class="save">Сохранить</button>
+        </div>
+    </section>
+
+</div>
+
+</body>
+</html>
