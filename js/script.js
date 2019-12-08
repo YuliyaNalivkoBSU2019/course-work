@@ -3,8 +3,10 @@ window.addEventListener('load', function () {
     headerBtn.addEventListener('click', function (e) {
         let viewportHeight = document.documentElement.clientHeight;
 
+        let marginTop = 400;
+
         let timerId = setInterval(() => {
-            if (window.scrollY < viewportHeight) {
+            if (window.scrollY < marginTop) {
                 window.scrollTo(0, window.scrollY + 10);
             }
         }, 2);
